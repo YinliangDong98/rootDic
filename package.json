@@ -1,0 +1,60 @@
+{
+    "name": "root-dictionaries",
+    "version": "1.0.0",
+    "description": "A root dictionary for conversion between Chinese and English",
+    "private": true,
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "watch": "webpack --watch",
+        "bundle": "webpack",
+        "start": "webpack-dev-server"
+    },
+    "keywords": [
+        "root",
+        "dictionary",
+        "Chinese",
+        "English"
+    ],
+    "author": "Dong yinliang",
+    "license": "ISC",
+    "dependencies": {
+        "@babel/polyfill": "^7.6.0",
+        "@hot-loader/react-dom": "^16.10.2",
+        "axios": "^0.19.0",
+        "body-parser": "^1.19.0",
+        "bootstrap": "^4.3.1",
+        "express": "^4.17.1",
+        "mongodb": "^3.3.3",
+        "mongoose": "^5.7.5",
+        "prop-types": "^15.7.2",
+        "react": "^16.11.0",
+        "react-bootstrap": "^1.0.0-beta.16",
+        "react-dom": "^16.11.0",
+        "react-hot-loader": "^4.12.15",
+        "react-redux": "^7.1.3",
+        "redux": "^4.0.4",
+        "redux-thunk": "^2.3.0"
+    },
+    "devDependencies": {
+        "@babel/cli": "^7.6.4",
+        "@babel/core": "^7.6.4",
+        "@babel/plugin-transform-arrow-functions": "^7.2.0",
+        "@babel/preset-env": "^7.6.3",
+        "@babel/preset-react": "^7.6.3",
+        "babel-loader": "^8.0.6",
+        "clean-webpack-plugin": "^3.0.0",
+        "css-loader": "^3.2.0",
+        "eslint": "^6.6.0",
+        "eslint-config-airbnb": "^18.0.1",
+        "eslint-loader": "^3.0.2",
+        "eslint-plugin-import": "^2.18.2",
+        "eslint-plugin-jsx-a11y": "^6.2.3",
+        "eslint-plugin-react": "^7.16.0",
+        "eslint-plugin-react-hooks": "^1.7.0",
+        "html-webpack-plugin": "^3.2.0",
+        "style-loader": "^1.0.0",
+        "webpack": "^4.41.2",
+        "webpack-cli": "^3.3.9",
+        "webpack-dev-server": "^3.9.0"
+    }
+}
